@@ -21,3 +21,9 @@ function inc (num){
 function dec(num){
   return num -1;
 }
+function makeInt(num){
+  return parseInt(num,10);
+}
+function preserveDecimal(num){
+  return parseFloat(num);
+}
